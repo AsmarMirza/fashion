@@ -1,0 +1,15 @@
+.homehero {
+  max-width: 100%;
+  background-image: url("https://t3.ftcdn.net/jpg/03/00/69/78/360_F_300697818_2hO5PJsuR9vH4WMeEuFVxr7Ad6U0d8EV.jpg");
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-attachment: fixed;
+  position: relative;
+  gap: 15px;
+}

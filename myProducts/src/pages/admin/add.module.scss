@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(128, 128, 190, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: auto;
+  margin-top: 30px;
+  max-width: 50%;
+  padding: 100px;
+  border: 1px solid rgb(168, 163, 163);
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  .btn{
+    background-color: red;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 3px 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+}

@@ -1,0 +1,35 @@
+.mainNavbar {
+  display: flex;
+   border: 1px solid black;
+  max-width: 100%;
+  min-height: 60px;
+  padding: 0px 30px;
+  align-items: center;
+//   position: absolute;
+//   z-index: 1;
+//   left: 0;
+//   top: 0;
+//   right: 0;
+//   color: white;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 100px;
+  }
+  .navbarHeading {
+    font-size: 30px;
+  }
+  .navIcon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar {
+    display: none;
+  }
+  .navIcon {
+    display: flex;
+  }
+}

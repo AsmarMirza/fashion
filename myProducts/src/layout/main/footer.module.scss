@@ -1,0 +1,118 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+  max-width: 100%;
+  background-color: #0e1015;
+}
+.footer {
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.footerCommon {
+  max-width: 100%;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.twt {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 1px solid #212529;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: bolder;
+  cursor: pointer;
+}
+.twt:hover {
+  background-color: #037ef3;
+  border: 1px solid #037ef3;
+}
+.footer__text {
+  left: 2px;
+  font-size: 16px;
+}
+
+.socialAndText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+.footerCommon {
+  display: flex;
+  gap: 50px;
+}
+.footerLeft {
+  max-width: 40%;
+  margin-left: 20px;
+  color: white;
+}
+.footerEnd {
+  gap: 20px;
+  color: white;
+}
+.phone {
+  max-width: 130px;
+  border-bottom: 3px solid black;
+}
+.email {
+  max-width: 175px;
+  border-bottom: 3px solid black;
+}
+.email:hover {
+  cursor: pointer;
+  color: #037ef3;
+  opacity: 1;
+  border-bottom: 3px solid #037ef3;
+}
+.phone:hover {
+  cursor: pointer;
+  color: #037ef3;
+  opacity: 1;
+  border-bottom: 3px solid #037ef3;
+}
+.footerContactHeader {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footerSocialHeader {
+  font-weight: bolder;
+}
+@media only screen and (max-width: 655px) {
+  .footerCommon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+  .email {
+    width: 300px;
+  }
+  .phone {
+    width: 200px;
+  }
+}
+#footerPet {
+  color: rgb(58, 139, 108);
+}

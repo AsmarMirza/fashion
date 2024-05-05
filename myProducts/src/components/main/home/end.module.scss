@@ -1,0 +1,33 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  .text {
+    max-width: 50%;
+    padding: 20px;
+  }
+  .imgBox {
+    max-width: 50%;
+    min-height: 300px;
+    border-radius: 7px;
+    .img {
+      width: 100%;
+      border-radius: 7px;
+    }
+  }
+}
+@media only screen and (max-width: 893px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    .text {
+      max-width: 100%;
+    }
+    .imgBox {
+      max-width: 100%;
+    }
+  }
+}
